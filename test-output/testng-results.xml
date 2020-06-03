@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19155" started-at="2020-06-02T15:07:57Z" finished-at="2020-06-02T15:08:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19155" started-at="2020-06-02T15:07:57Z" finished-at="2020-06-02T15:08:16Z">
+      <class name="com.crm.qa.testcases.ReportPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ReportPageTest@271053e1]" name="setUp" is-config="true" duration-ms="14247" started-at="2020-06-02T15:07:57Z" finished-at="2020-06-02T15:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDateByJSTest()[pri:0, instance:com.crm.qa.testcases.ReportPageTest@271053e1]" name="selectDateByJSTest" duration-ms="4869" started-at="2020-06-02T15:08:11Z" finished-at="2020-06-02T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateByJSTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ReportPageTest@271053e1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-02T15:08:16Z" finished-at="2020-06-02T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ReportPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Free CRM Test cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Free CRM Test cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 28 14:45:46 BST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>240 seconds (240684 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.clickContactLinkTest()'><b>clickContactLinkTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.testcases.HomePageTest@3fee9989</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.clickDealsLinkTest()'><b>clickDealsLinkTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.testcases.HomePageTest@3fee9989</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.ContactsPageTest.clickOnNewContactLinkTest()'><b>clickOnNewContactLinkTest</b><br>Test class: com.crm.qa.testcases.ContactsPageTest<br>Parameters: Mr., Tom, Peter, Google</td>
+<td></td>
+<td>4</td>
+<td>com.crm.qa.testcases.ContactsPageTest@7085bdee</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.ContactsPageTest.clickOnNewContactLinkTest()'><b>clickOnNewContactLinkTest</b><br>Test class: com.crm.qa.testcases.ContactsPageTest<br>Parameters: Dr., David, Cris, Amazon</td>
+<td></td>
+<td>4</td>
+<td>com.crm.qa.testcases.ContactsPageTest@7085bdee</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.ContactsPageTest.clickOnNewContactLinkTest()'><b>clickOnNewContactLinkTest</b><br>Test class: com.crm.qa.testcases.ContactsPageTest<br>Parameters: Mrs., Mukta, Sharma, Ebay</td>
+<td></td>
+<td>4</td>
+<td>com.crm.qa.testcases.ContactsPageTest@7085bdee</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.clickTasksLinkTest()'><b>clickTasksLinkTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.testcases.HomePageTest@3fee9989</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.createNewEventTest()'><b>createNewEventTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest<br>Parameters: Mr, tag1, Worthing, New Event 1 is created, 30mins</td>
+<td></td>
+<td>3</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.createNewEventTest()'><b>createNewEventTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest<br>Parameters: Mrs, tag2, Brighton, New Event 2 is created, 60mins</td>
+<td></td>
+<td>3</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.createNewEventTest()'><b>createNewEventTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest<br>Parameters: Miss, tag3, Hove, New Event 3 is created, 120mins</td>
+<td></td>
+<td>3</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.createNewEventTest()'><b>createNewEventTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest<br>Parameters: Dr, tag3, Halifax, New Event 4 is created, 180mins</td>
+<td></td>
+<td>3</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.selectYearCalenderTest()'><b>selectYearCalenderTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.verifyCalenderPageTest()'><b>verifyCalenderPageTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CompaniesPageTest.verifyCompaniesPageTest()'><b>verifyCompaniesPageTest</b><br>Test class: com.crm.qa.testcases.CompaniesPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.crm.qa.testcases.CompaniesPageTest@1ce92674</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.testcases.HomePageTest@3fee9989</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.CalenderPageTest.verifyNewEventPageTest()'><b>verifyNewEventPageTest</b><br>Test class: com.crm.qa.testcases.CalenderPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.crm.qa.testcases.CalenderPageTest@5700d6b1</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.verifyUserNameTest()'><b>verifyUserNameTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.testcases.HomePageTest@3fee9989</td></tr>
+</table><p>
+</body>
+</html>
